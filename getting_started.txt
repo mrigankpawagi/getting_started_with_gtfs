@@ -1,0 +1,23 @@
+The data and codes provided to you is confidential and has been obtained under a non-disclosure agreement from several agencies and personalities. Therefore, it is imperative to maintain the confidentiality of the data and not share it with anyone. You are free to use tools like ChatGPT and GitHub copilot to increase your efficiency. Generally I work with Jetbrains IDE like Clion (C++) and Pycharm (Python). However, you can use any tool. The project involves a big team working towards acheiving a common goal. Each member would be focussing on a particular aspect of the problem. Thus, ensure good coding practices. Have proper comments so that it is easier for others to understand. Do not hardcode paths. 
+
+Task 1: Get familiar with GTFS set
+GTFS link: https://developers.google.com/transit/gtfs/reference
+Download the anaheim_GTFS data from  https://github.com/transnetlab/transit-routing and write C++ (or Python) program for the following
+a. Print total number of trips, routes, stops in the network
+b. Print the number of trips passing through the Route ID bc404235-c139-4efb-90fb-798fbbddc35c
+c. Print all trips Id passing through stop id 5011
+d. Print the route Id of the trip 689d9098-2132-469c-a01e-a2b90aa70802:1
+e. Can I walk between the stops 63 and 41 ? If yes, what is travel time?
+f. What is the arrival time of trip 689d9098-2132-469c-a01e-a2b90aa70802:1 on stop Id 6018?
+g. What is the number of stop Id 2004 in trip 17e9310e-60b3-4877-8da1-5ce56031f895:1?
+h. What are the stops in the trip 17e9310e-60b3-4877-8da1-5ce56031f895:6 (in the correct order).
+i. Is arrival time always equal to departure time in all cases?
+j. When does the trip 689d9098-2132-469c-a01e-a2b90aa70802:1 depart from stop id 6018?
+k. Is the service_id 02d8b020-a7c1-4ded-a15f-2cab457c9084 active on date 20201225?
+l. Does the 022f4234-a772-40d2-a0e4-c9be588a46f9 work on Firday? How many trips does it have?
+
+Task 2: Get familiar with GitHub and OneDrive
+2. Write one Python/C++ file to answer above questions. Rename the file to getting_started.py (or .cpp) and push it to GitHub. Push the anaheim_gtfs to the OneDrive folder GitHub.
+Note: All finished codes are to be pushed in GitHub. Ensure all paths are softcoded. Data files to big for GitHub are to be added to OneDrive folder. 
+
+Task 3: Run your Python code on the server and familiarize yourself with Gandalf.
